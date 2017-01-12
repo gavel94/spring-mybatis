@@ -1,0 +1,21 @@
+# Created by .ignore support plugin (hsz.mobi)
+target
+test
+log
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+.DS_Store
+.settings
+.idea
+.project
+.classpath
+*.iml
+*.log
+/tmp/
+out
+gen
