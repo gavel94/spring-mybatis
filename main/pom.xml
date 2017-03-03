@@ -33,6 +33,7 @@
     <poi-ooxml-schemas.version>3.9</poi-ooxml-schemas.version>
     <xmlbeans.version>2.3.0</xmlbeans.version>
     <dom4j.version>1.6.1</dom4j.version>
+    <jsonwebtoken.version>0.7.0</jsonwebtoken.version>
   </properties>
 
   <dependencies>
@@ -253,6 +254,12 @@
       <groupId>dom4j</groupId>
       <artifactId>dom4j</artifactId>
       <version>${dom4j.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.jsonwebtoken</groupId>
+      <artifactId>jjwt</artifactId>
+      <version>${jsonwebtoken.version}</version>
     </dependency>
 
   </dependencies>
